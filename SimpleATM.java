@@ -37,7 +37,7 @@ public class SimpleATM {
                     break;
 
                 case 3:
-                    System.out.print("Enter withdrawal amount: $ ");
+                    System.out.print("Enter withdrawal amount: $4 ");
                     double withdrawal = input.nextDouble();
 
                     if (withdrawal <= 0) {
